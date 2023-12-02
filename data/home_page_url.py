@@ -1,0 +1,1 @@
+HOME_PAGE ='https://afisha.peredelano.com/ru'
