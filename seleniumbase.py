@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.remote.webelement import WebElement
 
 
-class BasePage():
+class BasePage:
     TIMEOUT = 15
     """
     Базовый класс для страниц веб-приложения, использующий Selenium для взаимодействия с элементами на странице.
@@ -15,13 +15,10 @@ class BasePage():
     Methods:
         open(): Открывает URL страницы в браузере, связанном с данным объектом.
 
-        is_visible(locator: tuple, timeout: int = 10) -> WebElement: Ожидает видимость элемента, заданного локатором, в течение указанного времени. Возвращает WebElement, если элемент видим, или вызывает исключение TimeoutException, если элемент не появился.
-
-        is_clickable(locator, timeout: int = 10): Ожидает, что элемент, заданный локатором, станет кликабельным в течение указанного времени. Если элемент становится кликабельным, функция возвращает элемент, иначе вызывает исключение TimeoutException.
-
     Note:
         Для использования этого класса необходимо импортировать соответствующие модули и создать экземпляр WebDriver перед его инициализацией.
     """
+
     def __init__(self, driver, url):
         self.driver = driver
         self.url = url
