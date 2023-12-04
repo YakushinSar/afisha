@@ -23,3 +23,18 @@ class HomePage(BasePage):
 
     def avtorization(self):
         return self.is_visible(AVTORIZATION)
+
+    def asisha_futer(self):
+        return self.is_visible(AFISHA_FUTER)
+
+    def about_futer(self):
+        return self.is_clickable(ABOUT_FUTER)
+
+    def support_futer(self):
+        return self.is_clickable(SUPPORT_FUTER)
+
+    def donate_futer(self):
+        return self.is_clickable(DONATE_FUTER)
+
+    def limitation(self):
+        return self.is_clickable(LIMITATION)

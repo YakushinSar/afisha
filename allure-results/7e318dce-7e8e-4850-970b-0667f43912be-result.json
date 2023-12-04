@@ -1,0 +1,36 @@
+{
+  "name": "test_afisha_logo_visible",
+  "status": "passed",
+  "start": 1701687050637,
+  "stop": 1701687054431,
+  "uuid": "c410e89f-1a32-4f94-a208-9dae8e3e40c7",
+  "historyId": "edb89e209c015faabf4427dd25d7bd21",
+  "testCaseId": "edb89e209c015faabf4427dd25d7bd21",
+  "fullName": "test_header#test_afisha_logo_visible",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_header"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-VT2FS24"
+    },
+    {
+      "name": "thread",
+      "value": "9292-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_header"
+    }
+  ]
+}

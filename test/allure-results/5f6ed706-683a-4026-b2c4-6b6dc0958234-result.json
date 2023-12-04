@@ -1,0 +1,44 @@
+{
+  "name": "test_afisha_logo_visible",
+  "status": "passed",
+  "start": 1701712248172,
+  "stop": 1701712254600,
+  "uuid": "62c3fb17-9f38-4af5-92b9-3295aac264c8",
+  "historyId": "cb597b38ef22aa1e18f9aad2bd6156f2",
+  "testCaseId": "cb597b38ef22aa1e18f9aad2bd6156f2",
+  "fullName": "test.test_header.TestHeader#test_afisha_logo_visible",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "test"
+    },
+    {
+      "name": "suite",
+      "value": "test_header"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHeader"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-VT2FS24"
+    },
+    {
+      "name": "thread",
+      "value": "2100-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test.test_header"
+    }
+  ]
+}

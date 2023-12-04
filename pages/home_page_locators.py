@@ -10,3 +10,9 @@ AVTORIZATION = (By.XPATH, "//*[@class ='button__content'][contains(text(),'Ав�
 ENGLISH = (By.XPATH, '//*[@href="/en"]')
 
 # body
+# futher
+AFISHA_FUTER = (By.XPATH, '//*[@aria-current="page"]')
+ABOUT_FUTER = (By.XPATH, ' //*[@class="navigation__link"][contains(text(),"Об Афише")]')
+SUPPORT_FUTER = (By.XPATH, '//*[@class="navigation__link"][contains(text(),"Поддержка")]')
+DONATE_FUTER = (By.XPATH, '//*[@class="navigation__link"][contains(text(),"Помочь Afisha")]')
+LIMITATION = (By.XPATH, '//*[@class="navigation__link"][contains(text(),"Ограничение ответственности")]')

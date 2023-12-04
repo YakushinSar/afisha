@@ -1,0 +1,48 @@
+{
+  "name": "test_about_text_clickable",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: переход не на ту страницу\nassert 'https://afisha.peredelano.com/ru' == 'https://afisha.peredelano.com/ru/about'\n  - https://afisha.peredelano.com/ru/about\n  ?                                 ------\n  + https://afisha.peredelano.com/ru",
+    "trace": "self = <test_header.TestHeader object at 0x000001D6C11AE3D0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"95267a80b642e29b00b5653f25782d1e\")>\nwait = <selenium.webdriver.support.wait.WebDriverWait (session=\"95267a80b642e29b00b5653f25782d1e\")>\n\n    def test_about_text_clickable(self, driver, wait):\n        page = HomePage(driver, url=HOME_PAGE_URL)\n        page.open()\n        assert page.about().text == 'Об Афише', 'текст не соответствует'\n        assert page.about().is_enabled(), 'не кликабельный'\n        page.about().click()\n>       assert driver.current_url == ABOUT_URL, 'переход не на ту страницу'\nE       AssertionError: переход не на ту страницу\nE       assert 'https://afisha.peredelano.com/ru' == 'https://afisha.peredelano.com/ru/about'\nE         - https://afisha.peredelano.com/ru/about\nE         ?                                 ------\nE         + https://afisha.peredelano.com/ru\n\ntest_header.py:19: AssertionError"
+  },
+  "start": 1701712263446,
+  "stop": 1701712266173,
+  "uuid": "48bde493-116c-4103-9c68-cc19b4efc2cb",
+  "historyId": "53fb0e8af53f5272b787eabafc1f7cd2",
+  "testCaseId": "53fb0e8af53f5272b787eabafc1f7cd2",
+  "fullName": "test.test_header.TestHeader#test_about_text_clickable",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "test"
+    },
+    {
+      "name": "suite",
+      "value": "test_header"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHeader"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-VT2FS24"
+    },
+    {
+      "name": "thread",
+      "value": "2100-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test.test_header"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "test_support_clickable",
+  "status": "passed",
+  "start": 1701687087507,
+  "stop": 1701687092522,
+  "uuid": "e6093263-f910-41fd-9244-26702b8e6790",
+  "historyId": "1defffeb4f78a182613e4f2ae2e2e4a7",
+  "testCaseId": "1defffeb4f78a182613e4f2ae2e2e4a7",
+  "fullName": "test_header#test_support_clickable",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_header"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-VT2FS24"
+    },
+    {
+      "name": "thread",
+      "value": "9292-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_header"
+    }
+  ]
+}
