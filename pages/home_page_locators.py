@@ -16,3 +16,8 @@ ABOUT_FUTER = (By.XPATH, ' //*[@class="navigation__link"][contains(text(),"Об 
 SUPPORT_FUTER = (By.XPATH, '//*[@class="navigation__link"][contains(text(),"Поддержка")]')
 DONATE_FUTER = (By.XPATH, '//*[@class="navigation__link"][contains(text(),"Помочь Afisha")]')
 LIMITATION = (By.XPATH, '//*[@class="navigation__link"][contains(text(),"Ограничение ответственности")]')
+
+INSTAGRAM = (By.XPATH, "//a[@href='https://www.instagram.com/afisha_peredelano/']")
+TWITTER = (By.XPATH, "//a[@href='https://twitter.com/afisha_prdln']")
+LINKEDIN = (By.XPATH, "//a[@href='https://www.linkedin.com/company/afisha-peredelano']")
+TELEGRAM = (By.XPATH, "//a[@href='https://t.me/afisha_peredelano']")

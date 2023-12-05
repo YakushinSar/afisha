@@ -38,3 +38,15 @@ class HomePage(BasePage):
 
     def limitation(self):
         return self.is_clickable(LIMITATION)
+
+    def instagram(self):
+        return self.is_clickable(INSTAGRAM)
+
+    def twitter(self):
+        return self.is_clickable(TWITTER)
+
+    def linkedin(self):
+        return self.is_clickable(LINKEDIN)
+
+    def telegram(self):
+        return self.is_clickable(TELEGRAM)
